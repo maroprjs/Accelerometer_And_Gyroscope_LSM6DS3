@@ -1,3 +1,6 @@
+Note: This branch is due to incobatibility with SPI interface with Seeed core for Wio LTE (Seeed_STM32F4_v1.2.5) - once fixed, remove the branch
+
+
 Accelerometer_And_Gyroscope_LSM6DS3  [![Build Status](https://travis-ci.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3)
 ---------------------------------
 

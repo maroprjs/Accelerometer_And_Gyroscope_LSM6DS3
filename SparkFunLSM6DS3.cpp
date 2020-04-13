@@ -73,9 +73,9 @@ status_t LSM6DS3Core::beginCore(void) {
             // start the SPI library:
             SPI.begin();
             // Maximum SPI frequency is 10MHz, could divide by 2 here:
-            SPI.setClockDivider(SPI_CLOCK_DIV4);
+            //SPI.setClockDivider(SPI_CLOCK_DIV4); MARO
             // Data is read and written MSb first.
-            SPI.setBitOrder(MSBFIRST);
+            //SPI.setBitOrder(MSBFIRST); MARO
             // Data is captured on rising edge of clock (CPHA = 0)
             // Base value of the clock is HIGH (CPOL = 1)
 
